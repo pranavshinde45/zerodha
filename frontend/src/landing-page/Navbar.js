@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg border-bottom" style={{ backgroundColor: " rgb(255, 255, 255)" }}>
             <div class="container p-2">
-                <Link to="/home">
+                <Link to="/">
                     <img src="media/images/logo.svg" style={{ width: "200px" }} />
                 </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
